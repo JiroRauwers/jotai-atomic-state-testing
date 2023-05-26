@@ -1,4 +1,12 @@
 {
   "conventionalCommits.scopes": ["Lint"],
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.fixAll.stylelint": true,
+    "source.organizeImports": true
+  },
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
 }
